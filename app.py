@@ -4,7 +4,7 @@ import pandas as pd
 import telegram
 from telegram.ext import Updater, CommandHandler, Job
 
-bot_token = "your_bot_token_here"
+bot_token = "6230457934:AAE8chcn1-zIP9oNEekKpBHbaMpWlouKPXk"
 bot = telegram.Bot(token=bot_token)
 updater = Updater(token=bot_token, use_context=True)
 job_queue = updater.job_queue
